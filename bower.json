@@ -1,0 +1,8 @@
+{
+  "name": "guttentag",
+  "dependencies": {
+    "bootstrap": "*",
+    "khi": "https://github.com/ElBiniou/khi.git",
+    "startbootstrap-sb-admin-2": "gh-pages"
+  }
+}

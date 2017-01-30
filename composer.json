@@ -1,0 +1,36 @@
+{
+	"name": "elbiniou-guttentag",
+	"description": "A framework for people who don't like frameworks",
+	"repositories": [
+		{"type": "vcs", "url": "https://github.com/ElBiniou/phi"},
+		{"type": "vcs", "url": "https://github.com/ElBiniou/phi-routing"},
+		{"type": "vcs", "url": "https://github.com/ElBiniou/phi-traits"},
+		{"type": "vcs", "url": "https://github.com/ElBiniou/phi-http"}
+	],
+	"require":
+	{
+		"elbiniou-phi": "dev-master",
+		"phi-traits": "dev-master",
+		"phi-routing": "dev-master",
+		"phi-http": "dev-master"
+	},
+	"require-dev": {
+	},
+	"config": {
+		"process-timeout": 600
+	},
+	"autoload": {
+		"psr-4": {
+			"Guttentag\\": "source/class",
+			"Guttentag\\Application\\": "application"
+		}
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"bower install"
+		],
+		"post-update-cmd": [
+			"bower install"
+		]
+	}
+}
