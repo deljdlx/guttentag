@@ -11,6 +11,7 @@ return array(
     'Phi\\Interfaces\\' => array($vendorDir . '/elbiniou-phi/source/Interfaces'),
     'Phi\\HTTP\\' => array($vendorDir . '/phi-http/source/class/HTTP'),
     'Phi\\' => array($vendorDir . '/elbiniou-phi/source/class'),
+    'PHPComponent\\' => array($vendorDir . '/elbiniou-phpcomponent/source/class'),
     'Guttentag\\Application\\' => array($baseDir . '/application'),
     'Guttentag\\' => array($baseDir . '/source/class'),
 );

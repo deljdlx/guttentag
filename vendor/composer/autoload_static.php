@@ -18,6 +18,7 @@ class ComposerStaticInit266694db4199de57346fc73b9b3435da
             'Phi\\Interfaces\\' => 15,
             'Phi\\HTTP\\' => 9,
             'Phi\\' => 4,
+            'PHPComponent\\' => 13,
         ),
         'G' => 
         array (
@@ -47,6 +48,10 @@ class ComposerStaticInit266694db4199de57346fc73b9b3435da
         array (
             0 => __DIR__ . '/..' . '/elbiniou-phi/source/class',
         ),
+        'PHPComponent\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/elbiniou-phpcomponent/source/class',
+        ),
         'Guttentag\\Application\\' => 
         array (
             0 => __DIR__ . '/../..' . '/application',
@@ -57,11 +62,22 @@ class ComposerStaticInit266694db4199de57346fc73b9b3435da
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'M' => 
+        array (
+            'Mustache' => 
+            array (
+                0 => __DIR__ . '/..' . '/elbiniou-phpcomponent/vendor/mustache/src',
+            ),
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit266694db4199de57346fc73b9b3435da::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit266694db4199de57346fc73b9b3435da::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit266694db4199de57346fc73b9b3435da::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }

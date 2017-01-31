@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d8a5ba545085985cde4258185f918dfb",
+    "content-hash": "3bc755abb81792ebd269321b792679fd",
     "packages": [
         {
             "name": "elbiniou-phi",
@@ -41,6 +41,37 @@
                 "issues": "https://github.com/ElBiniou/phi/issues"
             },
             "time": "2017-01-30 12:32:00"
+        },
+        {
+            "name": "elbiniou-phpcomponent",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phpcomponent.git",
+                "reference": "4d3ff7a4b1a71bff00ef20374a75c88668d32ffb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phpcomponent/zipball/4d3ff7a4b1a71bff00ef20374a75c88668d32ffb",
+                "reference": "4d3ff7a4b1a71bff00ef20374a75c88668d32ffb",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mustache": "vendor/mustache/src"
+                },
+                "psr-4": {
+                    "PHPComponent\\": "source/class"
+                },
+                "files": []
+            },
+            "description": "PHP web-components",
+            "support": {
+                "source": "https://github.com/ElBiniou/phpcomponent/tree/master",
+                "issues": "https://github.com/ElBiniou/phpcomponent/issues"
+            },
+            "time": "2017-01-31 14:17:45"
         },
         {
             "name": "phi-http",
@@ -137,7 +168,8 @@
         "elbiniou-phi": 20,
         "phi-traits": 20,
         "phi-routing": 20,
-        "phi-http": 20
+        "phi-http": 20,
+        "elbiniou-phpcomponent": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

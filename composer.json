@@ -5,14 +5,17 @@
 		{"type": "vcs", "url": "https://github.com/ElBiniou/phi"},
 		{"type": "vcs", "url": "https://github.com/ElBiniou/phi-routing"},
 		{"type": "vcs", "url": "https://github.com/ElBiniou/phi-traits"},
-		{"type": "vcs", "url": "https://github.com/ElBiniou/phi-http"}
+		{"type": "vcs", "url": "https://github.com/ElBiniou/phi-http"},
+		{"type": "vcs", "url": "https://github.com/ElBiniou/phpcomponent"}
+
 	],
 	"require":
 	{
 		"elbiniou-phi": "dev-master",
 		"phi-traits": "dev-master",
 		"phi-routing": "dev-master",
-		"phi-http": "dev-master"
+		"phi-http": "dev-master",
+		"elbiniou-phpcomponent": "dev-master"
 	},
 	"require-dev": {
 	},
