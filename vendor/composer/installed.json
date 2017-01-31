@@ -14,7 +14,7 @@
             "reference": "e9a093cfd49911a8a53affd06c60a90b13250ed2",
             "shasum": ""
         },
-        "time": "2017-01-30 12:03:47",
+        "time": "2017-01-30T12:03:47+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
@@ -47,7 +47,7 @@
         "require": {
             "phi-http": "dev-master"
         },
-        "time": "2017-01-29 14:59:26",
+        "time": "2017-01-29T14:59:26+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
@@ -77,7 +77,7 @@
             "reference": "2f3f1bde6582c1949854e505a44670d8773b07cd",
             "shasum": ""
         },
-        "time": "2017-01-09 21:40:53",
+        "time": "2017-01-09T21:40:53+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
@@ -112,7 +112,7 @@
             "phi-routing": "dev-master",
             "phi-traits": "dev-master"
         },
-        "time": "2017-01-30 12:32:00",
+        "time": "2017-01-30T12:32:00+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
